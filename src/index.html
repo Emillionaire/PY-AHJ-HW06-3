@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Trello</title>
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <h3 class="column-title">TODO</h3>
+            <div class="column-items-container">
+                <!-- <div class="column-item">
+                    <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quos iure repellendus, aperiam repudiandae rerum at quisquam suscipit voluptates, sunt sint fugit corporis repellat voluptatibus sequi? Magnam, minus laboriosam. Velit?</p>
+                    <svg class="item-delete" xmlns="http://www.w3.org/2000/svg" height="15" viewBox="0 -960 960 960" width="15"><path d="m249-207-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg>
+                </div>
+
+                <div class="column-item">
+                    <p class="item-text">This is a card.</p>
+                    <svg class="item-delete" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48"><path d="m249-207-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg>
+                </div> -->
+
+                <form class="add-card-box">
+                    <textarea class="add-card-box__text-field" placeholder="Enter a title for this card..." rows="" cols=""></textarea>
+                    <div class="add-card-box__actions">
+                        <button class="add-card-box__add-btn" type="submit">Add Card</button>
+                        <svg class="add-card-box__cancel-btn" xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="m249-207-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg>
+                    </div>
+                </form>
+            </div>
+            <button type="button" class="add-card-btn">&plus; Add another card</button>
+        </div>
+        <div class="column">
+            <h3 class="column-title">IN PROGRESS</h3>
+            <div class="column-items-container">
+                <form class="add-card-box">
+                    <textarea class="add-card-box__text-field" placeholder="Enter a title for this card..." rows="" cols=""></textarea>
+                    <div class="add-card-box__actions">
+                        <button class="add-card-box__add-btn" type="submit">Add Card</button>
+                        <svg class="add-card-box__cancel-btn" xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="m249-207-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg>
+                    </div>
+                </form>
+            </div>
+            <button  type="button" class="add-card-btn">&plus; Add another card</button>
+        </div>
+        <div class="column">
+            <h3 class="column-title">DONE</h3>
+            <div class="column-items-container">
+                <form class="add-card-box">
+                    <textarea class="add-card-box__text-field" placeholder="Enter a title for this card..." rows="" cols=""></textarea>
+                    <div class="add-card-box__actions">
+                        <button class="add-card-box__add-btn" type="submit">Add Card</button>
+                        <svg class="add-card-box__cancel-btn" xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="m249-207-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg>
+                    </div>
+                </form>
+            </div>
+            <button type="button" class="add-card-btn">&plus; Add another card</button>
+        </div>
+    </div>
+</body>
+</html>
